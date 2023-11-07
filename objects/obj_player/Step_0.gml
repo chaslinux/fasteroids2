@@ -30,5 +30,6 @@ move_wrap(true,true,0);
 if _firekey
 {
 	instance_create_layer(x,y, "Instances", obj_player_bullet);	
+	audio_play_sound(snd_shoot,0,false);
 }
 #endregion
